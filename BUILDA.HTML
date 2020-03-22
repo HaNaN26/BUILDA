@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUILDA</title>
+    <link href="BUILDA.css" rel="stylesheet">
+    <script src="jQuery.js"></script>
+    <link href="fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet" />
+    <script src="fontawesome-free-5.12.1-web/js/all.min.js"></script>
+    <link rel="icon" href="images/logo.jpg">
+</head>
+<main>
+    <header>
+        <!-- navbar -->
+        <div class="navbar" id="NavBar">
+            <img src="images/CClogo-.png" alt="companyLogo" title="companyLogo">
+            <div class="logo">BUILDA</div>
+            <ul class="nav">
+                <li><a class="active navItem" href="#">Home</a></li>
+                <li><a class="navItem" href="#idea">Ideas</a></li>
+                <li><a class="navItem" href="#services">SERVICES</a></li>
+                <li><a class="navItem" href="#projects">projects</a></li>
+                <li><a class="navItem" href="#testmonial">TestMonials</a></li>
+                <li><a class="navItem" href="#team">Team</a></li>
+                <li><a class="navItem" href="#recent">Recent Projects</a></li>
+                <li><a class="navItem" href="#places">Our Places</a></li>&ensp;
+                <li id="lang"><a class="navIcon" href="#"> <i class="fas fa-globe"></i></a></li>
+                <li><a class="navIcon" href="#"> <i class="fas fa-search"></i></a></li>
+                <li><a class="navIcon"> <i class="fas fa-sliders-h" id="toggler"></i></a></li>
+            </ul>
+            <ul class="selectLang">
+                <li><a class="active">ENG</a></li>
+                <hr>
+                <li><a class="arabic">AR</a></li>
+            </ul>
+            <div>
+                <ul id="nav2">
+                    <li><a class="active navItem" href="#">Home</a></li>
+                    <li><a class="navItem" href="#idea">Ideas</a></li>
+                    <li><a class="navItem" href="#services">SERVICES</a></li>
+                    <li><a class="navItem" href="#projects">projects</a></li>
+                    <li><a class="navItem" href="#testmonial">TestMonials</a></li>
+                    <li><a class="navItem" href="#team">Team</a></li>
+                    <li><a class="navItem" href="#recent">Recent Projects</a></li>
+                    <li><a class="navItem" href="#places">Our Places</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- slider -->
+
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+                <span class="text">Orascom Construction PLC is a leading global engineering and construction contractor
+                    primarily focused on infrastructure, industrial and high-end commercial projects in the Middle East,
+                    North Africa, the United States, and the Pacific Rim for public and private clients.
+                    The Group also develops and invests in infrastructure opportunities.</span>
+                <div class="navbuttons">
+                    <button class="seeMore">see more </button>
+                    <button class="signIn">sign in</button>
+                </div>
+                <img src="images/png-construction-companies.png" alt="slide1 IMG" title="slide1 IMG">
+
+            </div>
+
+            <div class="mySlides">
+                <span class="text">Orascom Construction PLC is a leading global engineering and construction contractor
+                    primarily focused on infrastructure, industrial and high-end commercial projects in the Middle East,
+                    North Africa, the United States, and the Pacific Rim for public and private clients.
+                    The Group also develops and invests in infrastructure opportunities.</span>
+                <div class="navbuttons">
+                    <button class="seeMore">see more </button>
+                    <button class="signIn">sign in</button>
+                </div>
+                <img src="images/femaleEngineer.png"alt="slide2 IMG" title="slide2 IMG" >
+
+            </div>
+
+            <div class="mySlides">
+                <span class="text">Orascom Construction PLC is a leading global engineering and construction contractor
+                    primarily focused on infrastructure, industrial and high-end commercial projects in the Middle East,
+                    North Africa, the United States, and the Pacific Rim for public and private clients.
+                    The Group also develops and invests in infrastructure opportunities.</span>
+                <div class="navbuttons">
+                    <button class="seeMore">see more </button>
+                    <button class="signIn">sign in</button>
+                </div>
+                <img src="images/engineers.png" alt="slide3 IMG" title="slide3 IMG">
+
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="Slidedot active" onclick="currentSlide(1)"></span>
+            <span class="Slidedot" onclick="currentSlide(2)"></span>
+            <span class="Slidedot" onclick="currentSlide(3)"></span>
+        </div>
+    </header>
+
+    <body>
+        <!-- ideas -->
+        <div id="idea" class="idea">
+            <div class="ideas1">
+                <div class="img1">
+                    <img src="images/engineer3.jpg" alt="idea1 IMg" title="idea1 IMg">
+                </div>
+                <div class="text1">
+                    <div>
+                        <h3> Orascom Construction PLC has grown</h3>
+                        Orascom Construction PLC has grown from a small family-run construction
+                        business into a global </br>
+                        engineering and construction contractor with projects and investments around the world.
+                        Orascom Construction PLC has grown from a small family-run <br>
+
+                    </div>
+                    <button>click me</button>
+                </div>
+
+            </div>
+            <div class="ideas2">
+                <div class="text2">
+                    <h3> Orascom Construction PLC has grown</h3>
+                    Orascom Construction PLC has grown from a small family-run construction
+                    business into a global </br>
+                    <h3> Orascom Construction PLC has grown</h3>
+
+                    engineering and construction contractor with projects and investments around the world.
+                    Orascom Construction PLC has grown from a small family-run <br>
+                    <h3> Orascom Construction PLC has grown</h3>
+                    construction business into a global
+                    engineering and construction contractor with projects and investments around the world.
+                </div>
+                <div class="img2">
+                    <img src="images/engineer2.jpg"alt="idea2 IMg" title="idea2 IMg">
+                </div>
+            </div>
+        </div>
+        <!-- services -->
+        <div class="services" id="services">
+            <h3>our services</h3>
+            <div class="service-text">Our aims to expand our market presence as an EPC contractor<br>
+                Our aims to expand our market presence as an EPC contractor
+            </div>
+            <div class="ourServices">
+                <div class="item1">
+                    <img src="images/engineer2.jpg" alt="services img1" title="services img1">
+                    <div class="title">Orascom</div>
+                    <div class="txt">
+                        It is our firm belief that behind every successful company.
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <img src="images/ser1.jpg" alt="services img2" title="services img2">
+                    <div class="title">Orascom</div>
+                    <div class="txt">
+                        It is our firm belief that behind every successful company.
+                    </div>
+                </div>
+                <div class="item3">
+                    <img src="images/engineer.jpg" alt="services img3" title="services img3">
+                    <div class="title">Orascom</div>
+                    <div class="txt">
+                        It is our firm belief that behind every successful company.
+                    </div>
+                </div>
+                <div class="item4">
+                    <img src="images/slide3.jpg" alt="services img4" title="services img4">
+                    <div class="title">Orascom</div>
+                    <div class="txt">
+                        It is our firm belief that behind every successful company.
+                    </div>
+                </div>
+                <div class="item5">
+                    <img src="images/ser3.jpg" alt="services img5" title="services img5">
+                    <div class="title">Orascom</div>
+                    <div class="txt">
+                        It is our firm belief that behind every successful company.
+                    </div>
+                </div>
+                <div class="item6">
+                    <img src="images/engineer1.jpg" alt="services img6" title="services img6">
+                    <div class="title">Orascom</div>
+                    <div class="txt">
+                        It is our firm belief that behind every successful company.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="seperate">
+            <div class="seperateText">
+                Orascom Construction PLC is a leading global engineering
+            </div>
+            <button> Get Offer</button>
+        </div>
+        <!-- projects -->
+        <div class="projects" id="projects">
+            <h3>our projects</h3>
+            <div class="projectText">
+                It is our firm belief that behind every successful company.
+            </div>
+            <ul>
+                <li><a href="#" class="active">GROUP</a></li>
+                <li><a href="#">BRANDS</a></li>
+                <li><a href="#">CAPABILITIES</a></li>
+                <li><a href="#">RESPONSIBILITY</a></li>
+            </ul>
+
+            <div class="ourprojects">
+                <div class="item1">
+                    <img src="images/ser1.jpg" alt="projects IMG1" title="projects IMG1">
+                    <div class="try">
+                        <button>Try</button>
+                        <button>Try</button>
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <img src="images/engineer2.jpg" alt="projects IMG2" title="projects IMG2">
+                    <div class="try">
+                        <button>Try</button>
+                        <button>Try</button>
+                    </div>
+                </div>
+                <div class="item3">
+                    <img src="images/ser3.jpg" alt="projects IMG3" title="projects IMG3">
+                    <div class="try">
+                        <button>Try</button>
+                        <button>Try</button>
+                    </div>
+                </div>
+                <div class="item4">
+                    <img src="images/engineer1.jpg" alt="projects IMG4" title="projects IMG4">
+                    <div class="try">
+                        <button>Try</button>
+                        <button>Try</button>
+                    </div>
+                </div>
+                <div class="item5">
+                    <img src="images/slide3.jpg" alt="projects IMG5" title="projects IMG5">
+                    <div class="try">
+                        <button>Try</button>
+                        <button>Try</button>
+                    </div>
+                </div>
+                <div class="item6">
+                    <img src="images/engineer3.jpg" alt="projects IMG6" title="projects IMG6">
+                    <div class="try">
+                        <button>Try</button>
+                        <button>Try</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- testMonial -->
+        <div class="testMonials" id="testmonial">
+            <div class="TMContainer">
+                <h3>TestMonials</h3>
+                <div class="TMtext"> We strive to ensure our investors are
+                    armed with tools to make informed
+                    decisions ,please contact us at ir@orascom.com
+                    with any questions or to be added to our distribution list.
+                </div>
+                <div class="peopleIdea">
+                    <div class="peopleIdea1">
+                        <div class="PIimg">
+                            <img src="images/engineer3.jpg" alt="peopleIdea1 IMg" title="peopleIdea1 IMg">
+                        </div>
+                        <div class="ideatxt">We strive to ensure our investors are
+                            armed with tools to make informed
+                            decisions
+                        </div>
+                        <div class="head">name</div>
+                        <div>name</div>
+                    </div>
+
+                    <div class="peopleIdea2">
+                        <div class="PIimg">
+                            <img src="images/engineer.jpg"  alt="peopleIdea2 IMg" title="peopleIdea2 IMg">
+                        </div>
+                        <div class="ideatxt">We strive to ensure our investors are
+                            armed with tools to make informed
+                            decisions
+                        </div>
+                        <div class="head">name</div>
+                        <div>name</div>
+                    </div>
+
+                </div>
+            </div>
+            <ul style="text-align:center">
+                <a href="#">
+                    <li class="active dot"></li>
+                </a>
+                <a href="#">
+                    <li class="dot"></li>
+                </a>
+                <a href="#">
+                    <li class="dot"></li>
+                </a>
+            </ul>
+        </div>
+
+        <!--our team-->
+        <section class="secTeam" id="team">
+            <div class="team">
+                <h3>OUR TEAM</h3>
+                <div>
+                    Orascom Construction PLC has grown from a small family-run
+                    construction business into a global engineering
+                </div>
+                <div class="persons">
+                    <div class="person1">
+                        <img src="images/engineer.jpg" alt="person1 IMG" title="person1 IMG">
+                        <div class="social">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="name">ahmed</div>
+                        <div>Orascom Construction</div>
+                    </div>
+                    <div class="person2">
+                        <img src="images/engineer1.jpg" alt="person2 IMG" title="person2 IMG">
+                        <div class="social">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="name">ali</div>
+                        <div>Orascom Construction</div>
+                    </div>
+                    <div class="person3">
+                        <img src="images/engineer2.jpg" alt="person3 IMG" title="person3 IMG">
+                        <div class="social">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="name">muhammed</div>
+                        <div>Orascom Construction</div>
+
+                    </div>
+                    <div class="person4">
+                        <img src="images/engineer3.jpg" alt="person4 IMG" title="person4 IMG">
+                        <div class="social">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="name">mazen</div>
+                        <div>Orascom Construction</div>
+                    </div>
+                </div>
+            </div>
+            <ul style="text-align:center">
+                <a href="#">
+                    <li class="active dot"></li>
+                </a>
+                <a href="#">
+                    <li class="dot"></li>
+                </a>
+                <a href="#">
+                    <li class="dot"></li>
+                </a>
+            </ul>
+        </section>
+        <!--Recent projects-->
+        <section class="recentProjects" id="recent">
+            <div>
+                <div class="RPDiv">
+                    <h3> Recent Projects</h3>
+                    <div>
+                        Orascom Construction PLC has grown from a small family-run construction business into a global
+                        engineering and construction contractor with projects and investments around the world.
+                    </div>
+                </div>
+                <div class="RPphoto">
+                    <div>
+                        <img src="images/slide3.jpg" alt="RPphoto1 IMG" title="RPphoto1 IMG">
+                        <div class="icons">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Orascom</span> &emsp;
+                            <i class="far fa-calendar-alt"></i>
+                            <div>2019/12/24</div>
+                        </div>
+
+                        <div class="RPText">
+                            Orascom Construction
+                        </div>
+
+                        <div class="RCText">
+                            from a small family-run construction business into a global
+                            engineering
+                        </div>
+                        <button class="seeMore">SEE MORE</button>
+                    </div>
+                    <div>
+                        <img src="images/slide3.jpg"alt="RPphoto2 IMG" title="RPphoto2 IMG">
+                        <div class="icons">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Orascom</span> &emsp;
+                            <i class="far fa-calendar-alt"></i>
+                            <div>2019/12/24</div>
+                        </div>
+
+                        <div class="RPText">
+                            Orascom Construction
+                        </div>
+                        <div class="RCText">
+                            from a small family-run construction business into a global
+                            engineering
+                        </div>
+                        <button class="seeMore">SEE MORE</button>
+                    </div>
+                    <div>
+                        <img src="images/slide3.jpg" alt="RPphoto3 IMG" title="RPphoto3 IMG">
+                        <div class="icons">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Orascom</span> &emsp;
+                            <i class="far fa-calendar-alt"></i>
+                            <div>2019/12/24</div>
+                        </div>
+
+                        <div class="RPText">
+                            Orascom Construction
+                        </div>
+                        <div class="RCText">
+                            from a small family-run construction business into a global
+                            engineering
+                        </div>
+                        <button class="seeMore">SEE MORE</button>
+                    </div>
+
+                </div>
+            </div>
+            <ul style="text-align:center">
+                <a href="#">
+                    <li class="active dot"></li>
+                </a>
+                <a href="#">
+                    <li class="dot"></li>
+                </a>
+                <a href="#">
+                    <li class="dot"></li>
+                </a>
+            </ul>
+
+        </section>
+        <!--logos-->
+        <section class="logos" id="places">
+            <div class="logosDiv">
+                <div>
+                    <img src="images/logo7.jpg" alt="logo1 IMG" title="logo1 IMG">
+
+                </div>
+                <div>
+                    <img src="images/logo2.jpg" alt="logo2 IMG" title="logo2 IMG">
+                </div>
+                <div>
+                    <img src="images/logo8.jpg" alt="logo3 IMG" title="logo3 IMG">
+                </div>
+                <div>
+                    <img src="images/logo6.jpg" alt="logo4 IMG" title="logo4 IMG">
+                </div>
+                <div>
+                    <img src="images/logo9.jpg" alt="logo5 IMG" title="logo5 IMG">
+                </div>
+
+            </div>
+
+        </section>
+
+    </body>
+    <footer>
+
+        <div class="footerSec">
+
+            <div class="div1">
+                <div class="logo-name">
+                    <img src="/images/logo.jpg" alt="footerLoGo" title="footerLoGo">
+                    <div class="comName">BUILDA</div>
+                </div>
+                <div class="textFooter">
+                    Our Board of Directors reviews and monitors our corporate governance framework,
+                    outlined below, to ensure our compliance and is committed to monitoring developments
+
+                </div>
+                <div class="footerSocial">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="div2">
+                <div class="comName">CAPABILITIES</div>
+                <ul>
+                    <a href="#">
+                        <li>EXPERIENCE</li>
+                    </a>
+                    <a href="#">
+                        <li>STANDARDS</li>
+                    </a>
+                    <a href="#">
+                        <li>SERVICES</li>
+                    </a>
+                    <a href="#">
+                        <li>MAINTENANCE</li>
+                    </a>
+                    <a href="#">
+                        <li>FOUNDATION</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="div3">
+                <div class="comName">BRANDS</div>
+                <ul>
+                    <a href="#">
+                        <li>CONTRACK </li>
+                    </a>
+                    <a href="#">
+                        <li>THE WEITZ</li>
+                    </a>
+                    <a href="#">
+                        <li>CONCESSIONS</li>
+                    </a>
+                    <a href="#">
+                        <li>BESIX GROUP</li>
+                    </a>
+                    <a href="#">
+                        <li>ORACISM</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="div4">
+                <div class="comName">GALLERY</div>
+
+                <div class="gallery">
+                    <img class="img1" src="images/engineer.jpg" alt="gallary IMG1" title="gallary IMG1">
+                    <img class="img2" src="images/engineer1.jpg" alt="gallary IMG2" title="gallary IMG2">
+                    <img class="img3" src="images/engineer2.jpg" alt="gallary IMG3" title="gallary IMG3">
+                    <img class="img4" src="images/engineer3.jpg" alt="gallary IMG4" title="gallary IMG4">
+                    <img class="img5" src="images/engineer4.jpg" alt="gallary IMG5" title="gallary IMG5">
+                    <img class="img6" src="images/engineer5.jpg" alt="gallary IMG6" title="gallary IMG6">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyRight">
+            <span>&copy; Copyright Hanan 2020</span>
+            <a href="#NavBar"><button class="top">top</button></a>
+        </div>
+    </footer>
+
+</main>
+
+</html>
+
+<script>
+    $(document).ready(function () {
+        $("#toggler").hover(function () {
+            $("#nav2").css("display", "inline-block");
+        }, $("#toggler").click(function () {
+            $("#nav2").css("display", "none");
+        }));
+        $("#lang").hover(function () {
+            $(".selectLang").css("display", "inline-block");
+        }, $("#lang").click(function () {
+            $(".selectLang").css("display", "none");
+        }));
+
+    });
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
